@@ -13,7 +13,7 @@
 /* <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> */
 
 body {
-    font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 /*
@@ -43,8 +43,8 @@ h1, h2, h3 {
 }
 
 blockquote {
-    font-style: italic;
-    font-family: Georgia, serif;
+    font-style: italic !important;
+    font-family: Georgia, serif !important;
 }
 
 /*
@@ -52,38 +52,38 @@ CLASSES
 */
 
 .wy-side-nav-search {
-    background-color: #17baad;
+    background-color: #17baad !important;
 }
 
 .wy-side-nav-search>a.fa-home {
-	color: #fff;
+	color: #fff !important;
 }
 
 .wy-menu-vertical a:link,
 .wy-menu-vertical a:hover,
 .wy-menu-vertical a:active,
 .wy-menu-vertical a:visited {
-	color: #eee;
+	color: #eee !important;
 }
 
 .oc-header {
-    width: 300px;
-    height: 98px;
-    padding: 20px 20px;
-    margin: -35px -20px 0;
-    background-color: #fff;
-    text-align: left;
+    width: 300px !important;
+    height: 98px !important;
+    padding: 20px 20px !important;
+    margin: -35px -20px 0 !important;
+    background-color: #fff !important;
+    text-align: left !important;
 }
 
 .oc-header h1 {
-    color: #17baad;
-    font-size:250%;
-    line-height: .5;
-    margin-bottom: 10px
+    color: #17baad !important;
+    font-size:250% !important;
+    line-height: .5 !important;
+    margin-bottom: 10px !important;
 }
 
 .oc-header h2 {
-    color: #000;
-    font-weight: normal;
-    font-size: 120%;
+    color: #000 !important;
+    font-weight: normal !important;
+    font-size: 120% !important;
 }
