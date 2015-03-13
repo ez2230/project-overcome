@@ -1,0 +1,89 @@
+@import url("theme.css") screen, print;
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/opensans/v10/K88pR3goAWT7BTt32Z01m1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  /* unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; */
+}
+
+/* <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> */
+
+body {
+    font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*
+light blue: #1e8ff8;
+orange: #e7834c;
+red:; #aa302d;
+green: #17baad;
+*/
+a:link {
+	color: #aa302d;
+}
+a:visited {
+	color: #1e8ff8;
+}
+
+h4, h5, h6, legend {
+    font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #444;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: #666;
+    text-transform: uppercase;
+}
+
+blockquote { 
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+/*
+CLASSES
+*/
+
+.wy-side-nav-search {
+    background-color: #17baad;
+}
+
+.wy-side-nav-search>a.fa-home {
+	color: #fff;
+}
+
+.wy-menu-vertical a:link,
+.wy-menu-vertical a:hover,
+.wy-menu-vertical a:active,
+.wy-menu-vertical a:visited {
+	color: #eee;
+}
+
+.oc-header {
+    width: 300px;
+    height: 98px;
+    padding: 20px 20px;
+    margin: -35px -20px 0;
+    background-color: #fff;
+    text-align: left;
+}
+
+.oc-header h1 {
+    color: #17baad;
+    font-size:250%;
+    line-height: .5;
+    margin-bottom: 10px
+}
+
+.oc-header h2 {
+    color: #000;
+    font-weight: normal;
+    font-size: 120%;
+}
